@@ -1,0 +1,5 @@
+build
+davidsousa/__pycache__
+davidsousa.egg-info
+dist
+teste.py
