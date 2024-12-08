@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="davidsousa",
-    version="0.2.0",
+    version="0.3.0",
     packages=find_packages(),
     description="Biblioteca para envio de e-mails com suporte a HTML e prioridade (Experimental). (Gmail)",
     long_description=open("README.md").read(),

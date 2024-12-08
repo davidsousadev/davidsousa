@@ -28,6 +28,4 @@ corpo = "<h1>Este é o assunto do e-mail</h1><p>Este é o corpo do e-mail em HTM
 # Enviar e-mail com corpo em HTML e marcado como importante
 enviar_email(nome_remetente, remetente, senha, destinatario, assunto, corpo, importante=True, html=True)
 
-
-
 ```

@@ -42,6 +42,6 @@ def enviar_email(nome_remetente, remetente, senha, destinatario, assunto, corpo,
         servidor.login(remetente, senha)
         servidor.sendmail(remetente, destinatario, mensagem.as_string())
         servidor.quit()
-        print("Email enviado com sucesso para:", destinatario)
+        return True
     except Exception as e:
         print("Erro ao enviar o e-mail:", e)
